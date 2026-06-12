@@ -1,0 +1,13 @@
+{
+  "id": "1",
+  "title": "Two Sum",
+  "slug": "two-sum",
+  "difficulty": "Easy",
+  "url": "https://leetcode.com/problems/two-sum",
+  "functionName": "twoSum",
+  "expectedComplexity": {
+    "time": "O(n)",
+    "space": "O(n)",
+    "source": "Common hash-map solution. Edit this if you intentionally target another profile."
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "leetcode-ts-lab",
+  "version": "1.0.0",
+  "description": "Fetch LeetCode problems, run TypeScript solutions, and compare measured complexity against expected profiles.",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "build": "tsc",
+    "fetch": "npm run build --silent && node dist/src/cli.js fetch",
+    "run": "npm run build --silent && node dist/src/cli.js run",
+    "verify": "npm run build --silent && node dist/src/cli.js verify",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "^22.7.5",
+    "typescript": "^5.8.3"
+  }
+}
